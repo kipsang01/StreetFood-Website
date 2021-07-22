@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0  ;
+}
+
+body{
+    background-color: #dbdfd9;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    list-style: none;
+}
+li{
+    width: 120px;
+    padding: 15px;
+    margin: 15px;
+}
+nav{
+    text-align: center;
+}
+.street{
+    width: 250px;
+    padding: 40px;
+    padding-left: 60px;
+}
+.food{
+    color: #EAAB1B;
+}
+h1{
+    color: #6CB840;
+    margin: 20px 20px 20px 10px;
+}
+h5{
+    color: white;
+    background-color: #6CB840;
+    width: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px;
+    margin-left: 20px;
+}

@@ -3,8 +3,8 @@
     margin: 0  ;
 }
 
-body{
-    background-color: #dbdfd9;
+.page1{
+    background-color: #3c3f3a;
 }
 ul{
     display: flex;
@@ -20,6 +20,7 @@ li{
 }
 nav{
     text-align: center;
+    padding-top: 45px;
 }
 .street{
     width: 250px;
@@ -42,4 +43,17 @@ h5{
     text-align: center;
     margin: 30px;
     margin-left: 20px;
+}
+strong{
+    font-size: 35px;
+}
+.together{
+    float: left;
+    height: 350px;
+    width: 350px;
+}
+.page2{
+    padding: 20px;
+    display: flex;
+    display: inline-block
 }

@@ -13,14 +13,23 @@ ul{
     color: black;
     list-style: none;
 }
-li{
-    width: 120px;
-    padding: 15px;
-    margin: 15px;
-}
 nav{
-    text-align: center;
+    /*text-align: center;*/
     padding-top: 45px;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: grey;
+}
+nav li{
+    padding-top: 0px;
+}
+nav li span{
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 5px solid black;
 }
 .street{
     padding: 20px;
@@ -52,6 +61,10 @@ h5{
 }
 strong{
     font-size: 35px;
+    margin-top: 0%;
+    padding-top: 0%;
+    display: flex;
+    justify-content: center;
 }
 .together{
     float: left;
@@ -101,5 +114,5 @@ img{
     border-radius: 30px;
 }
 footer #div{
-    float: left;
+    display: inline-block;
 }

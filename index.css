@@ -1,6 +1,7 @@
 *{
     padding: 20px;
-    margin: 0  ;
+    margin: 0;
+    font-family: 'Poppins';
 }
 .circle {
     position: absolute;
@@ -13,6 +14,7 @@
     bottom: 30%;
     left: 33%;
     overflow: hidden;
+    z-index: -1;
     /*shape-outside: ellipse(300px 500px at 100% 50%);*/
     
   }
@@ -42,6 +44,14 @@ nav li{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    color: gray;
+    font-weight: bold;
+}
 nav span{
     padding-top: 0px;
     margin-top: 0px;
@@ -50,6 +60,9 @@ nav span{
     padding: 20px;
     padding-left: 40px;
     width: 400px;
+    display: flex;
+    display: inline-block;
+    flex-direction: row;
 }
 .food{
     color: #EAAB1B;
@@ -85,13 +98,24 @@ strong{
 }
 .together{
     float: left;
+    margin-right: 0px;
+    padding-right: 0px;
     height: 350px;
-    width: 350px;
+    width: 500px;
 }
-.page2{
+.page2 .eating{
+    align-content: center;
+    float: right;
+    padding: 40px 40px 40px 0px;
+    width: 500px;
+    margin-top: 70px;
+    margin-right:150px ;
+    margin-left: 0px;
+}
+div .page2{
     padding: 20px;
     display: flex;
-    display: inline-block
+    background-color: green;
 }
 .menu{
     align-items: center;

@@ -3,15 +3,23 @@
     margin: 0  ;
 }
 .circle {
-    height: 500px;
-    width: 500px;
-    background-color: rgb(110, 240, 153);
+    position: absolute;
+    background-color: #649549;
+    transform: translate(0% -50%, -50% 0%);
+    height: 800px;
+    width: 1000px;
     border-radius: 50%;
-    opacity: 0.9;
+    opacity: 0.5;
+    bottom: 30%;
+    left: 33%;
+    overflow: hidden;
+    /*shape-outside: ellipse(300px 500px at 100% 50%);*/
+    
   }
 
 .page1{
     background-color: #cfd1ce;
+    position: relative;
 }
 ul{
     display: flex;

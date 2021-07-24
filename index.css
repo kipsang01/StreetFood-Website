@@ -7,7 +7,7 @@
 body{
     align-items: center;
 }
-/*
+
 .circle {
     position: absolute;
     background-color: #649549;
@@ -15,17 +15,18 @@ body{
     height: 800px;
     width: 1000px;
     border-radius: 50%;
-    opacity: 0.5;
+    opacity: 0.4;
     bottom: 30%;
     left: 33%;
-    overflow: hidden;
-    z-index: -1;
+    z-index: 2;
     shape-outside: ellipse(300px 500px at 100% 50%);
     
-  }*/
+  }
 .page1{
     background-color: #cfd1ce;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
  nav ul{
      width: 50%;
@@ -38,6 +39,11 @@ body{
     margin-bottom: 0px;
     margin-top: 30px;
 }
+#star{
+    font-size:500%;
+    color:rgb(43, 138, 24);
+    padding-right: 20px;
+}
 nav{
     padding: 0px;
     margin: 0px;
@@ -45,7 +51,12 @@ nav{
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 3;
 }
 nav li{
     padding-top: 40px;
@@ -56,10 +67,23 @@ nav li{
 nav #one li{
     display: flex;
     justify-content: space-around;
+    padding-right: 0px;
+    margin-right: 0px;
+}/*
+nav #two{
+    position: absolute;
+    z-index: 3;
+    top :0;
+    right: 0;
+
 }
+nav #th{
+    position: absolute;
+    z-index: 3;
+}*/
 nav li a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 nav li a:hover{
     color: gray;
@@ -72,14 +96,80 @@ nav span{
 .street{
     padding: 20px;
     padding-left: 40px;
-    width: 400px;
+    width: 100%;
     display: flex;
-    display: inline-block;
     flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+.paragraph{
+    width: 300px;
+}
+.sauce{
+    height: 300px;
+    width: 650px;
+    position: relative;
 }
 .food{
     color: #EAAB1B;
     padding: 8px;
+}
+.pic{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+}
+.pic2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: -100px;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+.pic3{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-right: 200px;
+    margin-top: -30px;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+.pic4{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-right: -200px;
+    margin-top: -30px;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+.pic5{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-right: -280px;
+    margin-top: 80px;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+.pic6{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-right: 280px;
+    margin-top: 80px;
+    right: 0;
+    top: 0;
+    z-index: 4;
 }
 h1{
     color: #6CB840;
@@ -105,8 +195,8 @@ h5{
 }
 strong{
     font-size: 35px;
-    margin-top: 0%;
-    padding-top: 0%;
+    margin-top: 30px;
+    padding-top: 60px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -114,7 +204,8 @@ strong{
 }
 .people{
     padding: 20px;
-    background-color: rgb(245, 248, 245);
+    padding-top: 100px;
+    background-color: white;
     height: 400px;
     width: 90%;
     display: flex;

@@ -1,8 +1,9 @@
 *{
-    padding: 20px;
+    padding: 0px;
     margin: 0;
     font-family: 'Poppins';
-}
+    border: 0px;
+}/*
 .circle {
     position: absolute;
     background-color: #649549;
@@ -15,20 +16,23 @@
     left: 33%;
     overflow: hidden;
     z-index: -1;
-    /*shape-outside: ellipse(300px 500px at 100% 50%);*/
+    shape-outside: ellipse(300px 500px at 100% 50%);
     
-  }
-
+  }*/
 .page1{
     background-color: #cfd1ce;
     position: relative;
 }
-ul{
+ nav ul{
+     width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: black;
     list-style: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 30px;
 }
 nav{
     padding: 0px;
@@ -37,12 +41,17 @@ nav{
     height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
 }
 nav li{
     padding-top: 40px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    justify-content: space-around;
+}
+nav #one li{
+    display: flex;
+    justify-content: space-around;
 }
 nav li a{
     text-decoration: none;
@@ -77,6 +86,9 @@ h2{
     margin-left: 40px;
     padding-left: 0%;
 }
+h3{
+    text-align: center;
+}
 h5{
     color: white;
     background-color: #6CB840;
@@ -96,57 +108,78 @@ strong{
     justify-content: center;
     z-index: 3;
 }
-.together{
-    float: left;
-    margin-right: 0px;
-    padding-right: 0px;
-    height: 350px;
-    width: 500px;
-}
-.page2 .eating{
-    align-content: center;
-    float: right;
-    padding: 40px 40px 40px 0px;
-    width: 500px;
-    margin-top: 70px;
-    margin-right:150px ;
-    margin-left: 0px;
-}
-div .page2{
+.people{
     padding: 20px;
+    background-color: rgb(245, 248, 245);
+    height: 400px;
+    width: 90%;
     display: flex;
-    background-color: green;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+}
+.eating{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+.together{
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+}
+#tog{
+    width: 400px;
+    height: 300px;
+}
+.eating strong{
+    color: #EAAB1B;
+    opacity: 0.8;
 }
 .menu{
-    align-items: center;
-    display: inline-block;
-    background-color: rgba(240, 239, 239, 0.863);
-    margin: 0px 30px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(165, 155, 155, 0.86);
+    width: 90%;
+    height: 400px;
+    margin-left: 30px;
 }
-img{
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-items: center;
+    justify-content: center;
+}
+.menu ul li{
+    width: 300px;
+    height: 150px;
+    padding: 0px;
+    background-color: white;
+    margin: 5px;
+    position: relative;
+    text-align: left;
+    justify-content: left;
+}
+.menu img{
     height: 100px;
     width: 100px;
+    float: left;
+    bottom: 0px;
+    left: 0px;
 }
 .explore{
     color: #6CB840;
     padding: 5px;
-    align-content: center;
+    width: 250px;
 }
 .hotdeals{
     background-color: #C9ECB5;
-}
-.hotdeals>img{
-    width: 400px;
+    width: 1000px;
     height: 500px;
-    float: left;
-    position: relative;
-    top: 0;
-    padding-top: 0%;
-}
-.hotdeals>.hot1{
-    width:200px;
-    height:200px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .contact{
     background-color: #FFD77C;

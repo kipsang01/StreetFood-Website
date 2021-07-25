@@ -69,18 +69,7 @@ nav #one li{
     justify-content: space-around;
     padding-right: 0px;
     margin-right: 0px;
-}/*
-nav #two{
-    position: absolute;
-    z-index: 3;
-    top :0;
-    right: 0;
-
 }
-nav #th{
-    position: absolute;
-    z-index: 3;
-}*/
 nav li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -403,3 +392,19 @@ h5 a{
     justify-content: space-between;
     align-items: center;
 }
+.time{
+    border-right: 4px  green;
+    border-style:dashed;
+    padding-left: 50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 200px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  

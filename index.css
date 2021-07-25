@@ -162,15 +162,17 @@ nav span{
 }
 h1{
     color: #6CB840;
-    margin-left: 40px;
+    margin-left: 0px;
     padding: 0%;
 }
 h2{
-    margin-left: 40px;
+    margin-left: 0px;
     padding-left: 0%;
+    padding-top: 20px;
 }
 h3{
     text-align: center;
+    margin-top: 30px;
 }
 h5{
     color: white;
@@ -206,7 +208,8 @@ strong{
     width: 400px;
     height: 300px;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .together{
     width: 400px;
@@ -236,23 +239,6 @@ strong{
     justify-items: center;
     justify-content: center;
 }
-/*.menu ul li{
-    width: 300px;
-    height: 150px;
-    padding: 0px;
-    background-color: white;
-    margin: 20px;
-    position: relative;
-    text-align: right;
-    justify-content: space-around;
-}
-.menu img{
-    height: 100px;
-    width: 100px;
-    float: left;
-    bottom: 0px;
-    left: 0px;
-}*/
 .list{
     height: 150px;
     width: 250px;
@@ -329,7 +315,7 @@ blockquote{
 .image .hot2{
     width: 350px;
     height: 450px;
-    margin-top: -100px;
+    margin-top: -120px;
     margin-right: 30px;
     padding-top: 0px;
     top: 0;
